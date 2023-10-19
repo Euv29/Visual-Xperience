@@ -1,0 +1,46 @@
+/* (dispositivos móveis) */
+@media screen and (max-width: 600px) {
+     .hide-mobile {
+          display: none;
+     }
+
+     #home h1 {
+          color: #ffffff;
+          font-size: 2.5rem;
+          line-height: 1.2em;
+     }
+
+     .content .service{
+          width: 100%;
+          display: flex;
+          justify-content: left ;
+          align-items: center;
+     }
+
+     /*  */
+     .service-card{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          min-height: 20rem;
+     }
+
+     .service-card div{
+          margin: 0.5rem;
+          width: 90%;
+          min-height: 10rem;
+     }
+
+     .service-card div.img .cel{
+          width: 20rem;
+     }
+}
+
+/* (desktop) */
+@media screen and (min-width: 601px) {
+     .hide-desktop {
+          display: none;
+     }
+}
